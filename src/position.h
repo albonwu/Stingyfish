@@ -165,6 +165,7 @@ public:
   Value psq_eg_stm() const;
   Value non_pawn_material(Color c) const;
   Value non_pawn_material() const;
+  PieceType cheapest(Color c) const;
 
   // Position consistency check, for debugging
   bool pos_is_ok() const;
